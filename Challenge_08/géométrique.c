@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void CalculDeLaMoyenneGéométrique
+void CalculDeLaMoyenneGéométrique() 
 {
     float a;
     float b;
@@ -18,7 +18,7 @@ void CalculDeLaMoyenneGéométrique
 
     M =pow(a * b * c, 1.0 / 3.0);
 
-     printf("La moyenne géométrique est: %.2f\n", moyenne_geometrique);
+     printf("La moyenne géométrique est: %.2f\n", M);
 }
 
 int main()
