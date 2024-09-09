@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void CalculDeLaMoyenneGéométrique() 
 {
@@ -23,7 +24,7 @@ void CalculDeLaMoyenneGéométrique()
 
 int main()
 {
-    CalculDeLaMoyenneGéométrique()
+    CalculDeLaMoyenneGéométrique();
 
     return 0;
 }
