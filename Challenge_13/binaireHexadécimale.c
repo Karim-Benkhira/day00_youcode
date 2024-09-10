@@ -10,14 +10,6 @@ int LireNumber()
     return Number;
 }
 
-/*void afficherBinaire(int N)
-{
-    if(N > 1)
-        afficherBinaire(N / 2);
-
-    printf("%d",N % 10);
-}*/
-
 void afficherBinaire(int N)
 {
     int i;
